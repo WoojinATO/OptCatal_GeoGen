@@ -1,0 +1,5 @@
+/file/set-tui-version "21.2"
+(cx-gui-do cx-activate-item "Boundary Conditions*Table1*Table3*Table4*Table2*PushButton2(Operating Conditions)")
+(cx-gui-do cx-set-expression-entry "Operating Conditions*Frame1*Table1(Pressure)*ExpressionEntry2(Operating Pressure)" '("102387" . 0))
+(cx-gui-do cx-activate-item "Operating Conditions*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "MenuBar*WriteSubMenu*Stop Journal")
